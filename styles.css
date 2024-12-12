@@ -1,0 +1,252 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+}
+
+.a {
+    width: 600px;
+    height: 850px;
+    color: rgb(107, 13, 13);
+     background-color: rgba(255, 193, 206, 0.712);
+
+}
+
+.f1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.item1 {
+    width: 100px;
+    height: 70px;
+    border: 2px solid black;
+    display: flex;
+   
+}
+
+.child {
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+    border-radius: 30%;
+    background-color: red;
+
+}
+
+.child2 {
+    width: 20px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 30%;
+    background-color: red;
+}
+
+.item2 {
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+   
+}
+
+.child1 {
+    width: 20px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 30%;
+    background-color: red;
+
+}
+
+.item3 {
+    width: 100px;
+    height: 70px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.item4 {
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.f2 {
+    display: flex;
+    justify-content: start;
+    justify-content: space-around;
+}
+
+.item5 {
+    width: 100px;
+    height: 70px;
+    border: 2px solid black;
+    display: flex;
+    align-items: flex-start;
+
+}
+
+.item6 {
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+
+}
+
+
+.item7 {
+    width: 100px;
+    height: 70px;
+    border: 2px solid black;
+    display: flex;
+    align-items: flex-end;
+}
+
+
+.item8 {
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    display: flex;
+    align-items: stretch;
+
+}
+.v{
+    display: inline-flex;
+}
+.container1{
+    width: 300px;
+    height: 400px;
+   
+}
+.container2{
+    width: 300px;
+    height: 400px;
+  
+}
+.f3{
+    display: flex;
+    justify-content: space-around;
+}
+.item9{
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: flex-start;
+}
+.item10{
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+}
+.f4{
+    display: flex;
+    justify-content: space-around;}
+.item11{
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: flex-end;
+}
+.item12{
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-around;
+}
+.f5{
+    display: flex;
+    justify-content: space-around;}
+.item13{
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    display: flex;
+   justify-content: space-evenly;
+}
+.item14{
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+.f6{
+    display: flex;
+    justify-content: space-around;}
+.item15{
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    display: flex;
+ align-content: flex-start;
+}
+.item16{
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+.f7{
+    display: flex;
+    justify-content: space-around;
+}
+
+.item17{
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-end;
+}
+.item18{
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: stretch;   
+}
+.f8{
+    display: flex;
+     justify-content: space-around; 
+}
+.item19{
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between; 
+}
+.item20{
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    display: flex;
+    
+    flex-wrap: wrap; 
+    align-content: space-around;
+}
